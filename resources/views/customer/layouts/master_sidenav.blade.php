@@ -22,19 +22,19 @@
         <div id="sidebar-menu">
             <!-- Left Menu Start -->
             <ul class="metismenu list-unstyled" id="side-menu">
-                <li class="menu-title">Produk AAN-PRINT</li>
+                <li class="menu-title">Produk HAAN-PRINT</li>
 
                 <li class="{{ request()->is('customer/produk/*') ? 'mm-active' : '' }}">
                     <a href="{{ Route('customer.produk') }}" class="waves-effect">
-                        <i class="mdi mdi-tshirt-crew"></i><span> Produk ANN PRINT</span>
+                        <i class="mdi mdi-tshirt-crew"></i><span> Produk HANN PRINT</span>
                     </a>
                 </li>
 
-                {{-- <li>
+                <li class="{{ request()->is('customer/produk_non*') ? 'mm-active' : '' }}">
                     <a href="#" class="waves-effect">
                         <i class="mdi mdi-tshirt-crew-outline"></i><span> Produk Non Grosir</span>
                     </a>
-                </li> --}}
+                </li>
 
                 <li class="menu-title">Pesanan Saya</li>
                 @php

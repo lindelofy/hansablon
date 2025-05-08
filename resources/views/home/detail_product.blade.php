@@ -2,25 +2,8 @@
 
 @section('content')
     <!-- HEADING-BANNER START -->
-    <div class="heading-banner-area overlay-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="heading-banner">
-                        <div class="heading-banner-title">
-                            <h2>{{ $detail->nama_produk }}</h2>
-                        </div>
-                        <div class="breadcumbs pb-15">
-                            <ul>
-                                <li><a href="index.html">Produk</a></li>
-                                <li>Detail Produk</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+    
     <!-- HEADING-BANNER END -->
     <!-- PRODUCT-AREA START -->
     <div class="product-area single-pro-area pt-80 pb-80 product-style-2">

@@ -70,12 +70,12 @@
 
                 <li class="menu-title">Produk</li>
 
-                {{-- <li class="{{ request()->is('admin/produk_non/*') ? 'mm-active' : ''}}">
+                 <li class="{{ request()->is('admin/produk_non/*') ? 'mm-active' : ''}}">
                     <a href="{{ route('produk_non.index') }}" class="waves-effect">
                         <i class="mdi mdi-storefront"></i>
                         <span>Produk Non Grosir</span>
                     </a>
-                </li> --}}
+                </li> 
 
                 <li class="{{ request()->is('admin/produk/*') ? 'mm-active' : ''}}">
                     <a href="{{ route('produk.index') }}" class="waves-effect">

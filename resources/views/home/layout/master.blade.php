@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>ANN | PRINTING</title>
+    <title>HANN | PRINTING</title>
     <meta name="description"
         content="Hurst – Furniture Store eCommerce HTML Template is a clean and elegant design – suitable for selling flower, cookery, accessories, fashion, high fashion, accessories, digital, kids, watches, jewelries, shoes, kids, furniture, sports….. It has a fully responsive width adjusts automatically to any screen size or resolution.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -73,8 +73,7 @@
                             <div class="copyright">
                                 <p class="mb-0">&copy; <a
                                         href="#"
-                                        target="_blank"> ANN PRINT </a> 2021. All Rights Reserved. | Repost by <a href='https://stokcoding.com/' title='StokCoding.com' target='_blank'>StokCoding.com</a>
-                                        </p>
+                                        target="_blank">HANN PRINT </a>
                             </div>
                         </div>
                         <div class="col-md-6">

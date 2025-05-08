@@ -76,7 +76,7 @@
                                 <div class="wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="0.5s">
                                     <p class="slider-pro-brief">
                                         UMKM yang berjalan di bidang percetakan dan sablon pakaian baik secara
-                                        tradisional ataupun digital yang ada di Semarang, Jawa Tengah
+                                        tradisional ataupun digital yang ada di Depok,Jawa Barat
                                     </p>
                                 </div>
                             </div>

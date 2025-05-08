@@ -5,7 +5,7 @@
 
 
         <meta charset="utf-8" />
-        <title>ANN | PRINTING</title>
+        <title>HANN | PRINTING</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesdesign" name="author" />
@@ -48,20 +48,20 @@
 
 
 
-                {{-- <footer class="footer">
+                <footer class="footer">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-6">
-                                <script>document.write(new Date().getFullYear())</script> © Morvin.
+                                <script>document.write(new Date().getFullYear())</script> 
                             </div>
                             <div class="col-sm-6">
                                 <div class="text-sm-end d-none d-sm-block">
-                                    Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesdesign
+                                    <i class="mdi mdi-heart text-danger"></i> 
                                 </div>
                             </div>
                         </div>
                     </div>
-                </footer> --}}
+                </footer>
             </div>
             <!-- end main content-->
 
