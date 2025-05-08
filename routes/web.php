@@ -111,10 +111,12 @@ Route::middleware(['auth', 'user-access:pembeli'])->group(function () {
     Route::get('/customer/dashboard', [DashboardCustomerController::class, 'index'])->name('customer.dashboard');
 
     Route::get('/customer/produk', [CustomerProdukController::class, 'index'])->name('customer.produk');
-    Route::get('/customer/produk_non', [HomeController::class, 'non_grosir'])->name('customer.produk_non');
     Route::get('/customer/produk/detail/{produk}', [CustomerProdukController::class, 'detail_produk'])->name('customer.detail_produk');
-
     Route::get('/customer/produk/kategori/{kategori}', [CustomerProdukController::class, 'kategori_produk'])->name('customer.kategori_produk');
+
+    Route::get('/customer/produk_non', [CustomerNonGrosirController::class, 'index'])->name('customer.produk_non');
+    Route::get('/customer/produk_non/detail/{produk}', [CustomerNonGrosirController::class, 'detail_produk'])->name('customer.detail_produk');
+    Route::get('/customer/produk_non/kategori{kategori}', [CustomerNonGrosirController::class, 'kategori_produk'])->name('customer.kategori_produk');
 
     Route::resource('/customer/keranjang', KeranjangCustomerController::class);
 
